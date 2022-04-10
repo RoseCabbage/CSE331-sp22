@@ -8,4 +8,4 @@ Finished Part:
 
 - HW 0
 - HW 1
-- HW 2 Coding
+- HW 2 Coding + Writing
