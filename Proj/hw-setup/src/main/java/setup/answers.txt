@@ -1,0 +1,44 @@
+## CSE 331 hw-setup Questions
+## Part 7: Answering Questions About the Code
+
+1. Why did Fibonacci fail the testThrowsIllegalArgumentException< test? What (if anything) did
+you have to do to fix it? If you did not have to change anything to fix this issue, explain why.
+
+When input 0 which is not a negative number, our program will throw Exception. I change the code
+from `if (n <= 0)` to `if (n < 0)`.
+
+2. Why did Fibonacci fail the testBaseCase test? What (if anything) did you have to do to fix
+it? If you did not have to change anything to fix this issue, explain why.
+
+When input 0 which is not a negative number, our program will throw Exception instead of returning 1
+. The precious change will solve this problem.
+
+3.Why did Fibonacci fail the testInductiveCase test? What (if anything) did you have to do to
+fix it? If you did not have to change anything to fix this issue, explain why.
+
+The original code is `if n <= 2 then return 1`. However, n = 2 is not the base case. Instead, it is
+inductive case. So I change it into `if n < 2 then return 1`.
+
+## Part 8: Debugger Tutorial
+
+1. What are the values of "x", "y", and "sum" printed by your statement? Why was x not equal 
+to the first integer entered here, and how could we fix this?
+
+x = 4, y = 0, sum = 0.
+Since `x = 2 * (console.nextInt() / 2);`, if x is odd then after that x is not equal to the input.
+It should be `x = console.nextInt();`
+
+2. What are all the names and values listed in the “Variables” panel? What does the “frames” 
+tab list as the current method and line number? (Write down the text that was highlighted when 
+the Debug perspective first opened.)
+
+x = 5, y = 4.
+computeSum:45, Adder.
+
+3. What are all the names and values listed in the “Variables” panel after each of the two step overs?
+
+args = []
+console = "..."
+x = 5
+y = 4
+sum = 1
