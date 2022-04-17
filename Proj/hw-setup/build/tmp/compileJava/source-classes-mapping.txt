@@ -1,14 +1,14 @@
-setup/Finder.java
- setup.Finder
-setup/HelloWorld.java
- setup.HelloWorld
-setup/HolaWorld.java
- setup.HolaWorld
-setup/RandomHello.java
- setup.RandomHello
-setup/Adder.java
- setup.Adder
-setup/Fibonacci.java
- setup.Fibonacci
 setup/Evaluator.java
  setup.Evaluator
+setup/HelloWorld.java
+ setup.HelloWorld
+setup/Adder.java
+ setup.Adder
+setup/RandomHello.java
+ setup.RandomHello
+setup/Finder.java
+ setup.Finder
+setup/Fibonacci.java
+ setup.Fibonacci
+setup/HolaWorld.java
+ setup.HolaWorld
