@@ -13,6 +13,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/hw-base" />
+            <option value="$PROJECT_DIR$/hw-sets" />
             <option value="$PROJECT_DIR$/hw-setup" />
           </set>
         </option>
